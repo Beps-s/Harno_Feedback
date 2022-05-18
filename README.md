@@ -14,8 +14,8 @@ This website is made for Harno (Haridus- ja Noorteamet). The website's purpuse i
 
 ## 📸 | Screenshots
 
-<div align="left"><img src="/pictures/Screenshot_1.png"></div>
-<div align="right"><img src="/pictures/Screenshot_2.png"></div>
+<div><img src="/pictures/Screenshot_1.png"></div>
+<div><img src="/pictures/Screenshot_2.png"></div>
 
 ## ✨ | Authors
 
