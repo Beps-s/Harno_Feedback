@@ -9,10 +9,6 @@
   height: 80px;
   padding: 5px 0;
 }
-.lang-cng {
-  display: flex;
-  justify-items: center;
-}
 .lang-btn {
   margin: 0 5px;
   height: fit-content;
@@ -21,7 +17,7 @@
   color: #000000;
   text-transform: uppercase;
   font-size: large;
-}    
+}  
 
 /* Main */
 
@@ -31,25 +27,21 @@
   background-size: cover;
   background-position: center;
 }
-
-.prof-div {
-  border: 1px solid #000000;
-  border-radius: 20px;
+.bg-img2 {
+  background-image: url(pictures/taustapilt.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
 }
 
-
-#pro-desc {
-  font-family: 'Roboto Mono', monospace;
-  line-height: 1.2;
+.c-border {
+  border: 1px solid #000000;
+  border-radius: 15px;
 }
 
 /* Footer */
 
-.footer-text {
-  font-family: 'Roboto Mono', monospace;
-  line-height: 1.2;
-  width: 60%;
-}   
 footer div a img {
   height: 55px;
 }

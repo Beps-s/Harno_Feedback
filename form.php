@@ -1,6 +1,7 @@
 <?php
 session_start();
 
+
 require_once 'csv_fcs.php';
 require_once 'db_fcs.php';
 require_once 'db_config.php';
@@ -8,26 +9,14 @@ require_once 'db_config.php';
 $conn = connect(HOST, USER, PASS, DB);
 
 
-$firstColumn = "";
-
 $formData = [];
 
 foreach ($_POST as $ItemName => $ItemValue) {
-    if($ItemName == "cnc-operaator" or $ItemName == "koostelukksepp" or $ItemName == "keevitaja"){
-        if($ItemValue != ""){
-            $firstColumn .= $ItemName . " ";
-        }
-    } elseif ($ItemName == "muueriala" && $ItemValue != "") {
-        $firstColumn .= $ItemValue . " ";
-    } elseif ($ItemValue == ""){
-        $formData[$ItemName] = "puudub";
-    } else {
-        $formData[$ItemName] = $ItemValue;
-    }
+    $formData[$ItemName] = $ItemValue;
 }
 
-$formData['keda'] = $firstColumn;
-
+date_default_timezone_set('Europe/Tallinn');
+$formData['kellaaeg'] = date('Y-m-d H:i:s', time());
 
 // write data to db
 
@@ -36,11 +25,10 @@ $sql = 'INSERT into Tagasiside SET '
     .'Kes_tegeleb = "'.$formData['kestegeleb'].'", '
     .'Voimekus = "'.$formData['voimekus'].'", '
     .'Valmidus = "'.$formData['valmidus'].'", '
-    .'Huvitavus = "'.$formData['huvitatus'].'", '
+    .'Huvitatus = "'.$formData['huvitatus'].'", '
     .'Mitu_noort = "'.$formData['mitunoort'].'", '
-    .'Lisakysimused = "'.$formData['lisakysimused'].'", '
-    .'Email = "'.$formData['email'].'", '
-    .'Keda = "'.$formData['firstColumn'].'"';
+    .'Keda = "'.$formData['erialad'].'", '
+    .'Email = "'.$formData['email'].'"';
     
     
 $resultDB = query($conn, $sql);
@@ -55,7 +43,7 @@ $resultCSV = writeToCSV($file, $formData);
 if ($resultCSV && $resultDB){
     $_SESSION['teavitus'] = 'Sinu vastused on salvestatud!';
 } else {
-    $_SESSION['teavitus'] = 'Tekkis tõrge, palun täita vorm uuesti ja saata!';
+    $_SESSION['teavitus'] = 'Tekkis t천rge, palun uuesti t채ita vorm ja saata!';
 }
 
 $pageCalledFrom = $_SERVER['HTTP_REFERER'];
