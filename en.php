@@ -278,7 +278,7 @@ session_start();
               class="col-sm-6 img-fluid p-0"
               style="object-fit: cover;"
             />
-            <div class="col-sm-6 bg-secondary bg-opacity-25">
+            <div class="col-sm-6">
               <h1 class="" style="font-size: 55px;">
                 <strong
                   >How well could vocational training suit your company?</strong
@@ -299,7 +299,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder=""
+                placeholder="Company name..."
                 name = "ettevottenimi"
               />
               <label class="p-0 mb-1" for="kestegeleb">Who is hiring new people in your company, including trainees?</label>
@@ -307,7 +307,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder="example: assistants"
+                placeholder="The name of the person/position..."
                 name = "kestegeleb"
               />
               <label class="p-0 mb-1" for="voimekus">What is the capacity and experience of your company in providing personal guidance to trainees?</label>
@@ -315,7 +315,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder="example: everything's very good"
+                placeholder="Description..."
                 name = "voimekus"
               />
               <label class="p-0 mb-1" for="validus">Is your company ready to hire a young person who is studying a specialty at a vocational school at the same time?</label>
@@ -323,7 +323,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder="example: yes, but if"
+                placeholder="Yes/No"
                 name = "valmidus"
               />
               <label class="p-0 mb-1" for="huvitatus">Would your company be interested in participating in the 2022/23 academic year vocational training pilot program?</label>
@@ -331,7 +331,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder="example: yes"
+                placeholder="Yes/No"
                 name = "huvitatus"
               />
               <label class="p-0 mb-1" for="mitunoort">How many people is your company able to accept at a time?</label>
@@ -339,7 +339,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder="example: 7"
+                placeholder="Number..."
                 name = "mitunoort"
               />
               <label class="p-0 mb-1" for="lisakysimused">Questions? Want to clarify something?</label>
@@ -374,7 +374,7 @@ session_start();
     </div>
 
     <!-- Footer -->
-    <footer class="bg-secondary bg-opacity-50">
+    <footer class="bg-secondary bg-opacity-25">
       <div class="container text-center">
         <div class="row justify-content-center">
           <p class="footer-text">

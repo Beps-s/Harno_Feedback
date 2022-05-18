@@ -279,7 +279,7 @@ session_start();
               class="col-sm-6 img-fluid p-0"
               style="object-fit: cover;"
             />
-            <div class="col-sm-6 bg-secondary bg-opacity-25">
+            <div class="col-sm-6">
               <h1 class="" style="font-size: 55px;">
                 <strong
                   >Насколько профессиональное обучение может подойти вашей компании?</strong
@@ -300,7 +300,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder="пример: AppleTreaty"
+                placeholder="Название компании..."
                 name = "ettevottenimi"
               />
               <label class="p-0 mb-1" for="kestegeleb">Кто нанимает новых людей в вашу компанию, в том числе стажеров?</label>
@@ -308,7 +308,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder="пример: помощник"
+                placeholder="имя человека/название работы..."
                 name = "kestegeleb"
               />
               <label class="p-0 mb-1" for="voimekus">Каковы возможности и опыт вашей компании в личном консультировании стажеров?</label>
@@ -316,7 +316,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder="пример: хорошо"
+                placeholder="Описание..."
                 name = "voimekus"
               />
               <label class="p-0 mb-1" for="validus">Готова ли ваша компания принять на работу молодого человека по контракту, параллельно обучающегося по специальности в ПТУ?</label>
@@ -324,7 +324,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder="пример: да"
+                placeholder="Да/Нет"
                 name = "valmidus"
               />
               <label class="p-0 mb-1" for="huvitatus">Была бы ваша компания заинтересована в участии в пилотной программе профессионального обучения 2022/23 учебного года?</label>
@@ -332,7 +332,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder="пример: да"
+                placeholder="Да/Нет"
                 name = "huvitatus"
               />
               <label class="p-0 mb-1" for="mitunoort">Сколько молодых людей ваша компания может и хочет принять одновременно?</label>
@@ -340,7 +340,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder="пример: 7"
+                placeholder="Количество..."
                 name = "mitunoort"
               />
               <label class="p-0 mb-1" for="lisakysimused">Вопросы? Хотите что-то уточнить?</label>
@@ -375,7 +375,7 @@ session_start();
     </div>
 
     <!-- Footer -->
-    <footer class="bg-secondary bg-opacity-50">
+    <footer class="bg-secondary bg-opacity-25">
       <div class="container text-center">
         <div class="row justify-content-center">
           <p class="footer-text">

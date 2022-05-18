@@ -55,7 +55,7 @@ $resultCSV = writeToCSV($file, $formData);
 if ($resultCSV && $resultDB){
     $_SESSION['teavitus'] = 'Sinu vastused on salvestatud!';
 } else {
-    $_SESSION['teavitus'] = 'Tekkis tõrge, palun uuesti täita vorm ja saata!';
+    $_SESSION['teavitus'] = 'Tekkis tõrge, palun täita vorm uuesti ja saata!';
 }
 
 $pageCalledFrom = $_SERVER['HTTP_REFERER'];

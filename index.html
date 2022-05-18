@@ -279,7 +279,7 @@ session_start();
               class="col-md-6 img-fluid p-0"
               style="object-fit: cover;"
             />
-            <div class="col-md-6 bg-secondary bg-opacity-25">
+            <div class="col-md-6">
               <h1 style="font-size: 55px;">
                 <strong
                   >Kui hästi profiõpe Sinu ettevõttele sobida võiks?</strong
@@ -300,7 +300,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder="näide: Rahaselts OÜ"
+                placeholder="Ettevõtte nimi..."
                 name = "ettevottenimi"
               />
               <label class="p-0 mb-1" for="kestegeleb">Kes tegeleb Sinu ettevõttes uute inimeste, sh praktikantide vastuvõtmisega?</label>
@@ -308,7 +308,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder="näide: assistent"
+                placeholder="Inimese/ameti nimi..."
                 name = "kestegeleb"
               />
               <label class="p-0 mb-1" for="voimekus">Milline on Sinu ettevõtte võimekus ja kogemus praktikantide personaalsel juhendamisel?</label>
@@ -316,7 +316,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder="näide: meie arvates väga tugev"
+                placeholder="Kirjeldus..."
                 name = "voimekus"
               />
               <label class="p-0 mb-1" for="valmidus">Kas Sinu ettevõte on valmis lepinguga tööle võtma noore, kes samal ajal õpib kutsekoolis vajalikku eriala?</label>
@@ -324,7 +324,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder="näide: jah, aga juhul..."
+                placeholder="Jah/Ei"
                 name = "valmidus"
               />
               <label class="p-0 mb-1" for="huvitatus">Kas Sinu ettevõte oleks huvitatud osalema 2022/23 õppeaasta profiõppe pilootprogrammis?</label>
@@ -332,7 +332,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder=" näide: jah"
+                placeholder="Jah/Ei"
                 name = "huvitatus"
               />
               <label class="p-0 mb-1" for="mitunoort">Mitu noort on Sinu ettevõte korraga võimeline ja valmis vastu võtma?</label>
@@ -340,7 +340,7 @@ session_start();
                 class="form-control mb-3"
                 type="text"
                 required
-                placeholder="näide: 7"
+                placeholder="Number..."
                 name = "mitunoort"
               />
               <label class="p-0 mb-1" for="lisakysimused">Tekkis küsimusi? Tahaks midagi täpsustada?</label>
@@ -375,7 +375,7 @@ session_start();
     </div>
 
     <!-- Footer -->
-    <footer class="bg-secondary bg-opacity-50">
+    <footer class="bg-secondary bg-opacity-25">
       <div class="container text-center">
         <div class="row justify-content-center">
           <p class="footer-text">
