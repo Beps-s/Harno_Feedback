@@ -1,16 +1,8 @@
-<h1 align="center">Harno tagasiside küsitlus</h1>
+<h1 align="center">Harno feedback site</h1>
 
 ## 📜 | About
 
 This website is made for Harno (Haridus- ja Noorteamet). The website's purpuse is to collect feedback from the users and have it collected.
-
-## 🚧 | Prerequisites
-
-...[]()
-
-## 💨 | Installing & Running
-
-...
 
 ## 📸 | Screenshots
 
