@@ -2,7 +2,7 @@
 
 ## 📜 | About
 
-This website is made for Harno (Haridus- ja Noorteamet). The website's purpuse is to collect feedback from the users and have it collected.
+This website is made for Harno (Haridus- ja Noorteamet). The website's purpuse is to collect feedback from the users and have the collected data recorded.
 
 ## 📸 | Screenshots
 
@@ -20,7 +20,3 @@ This website is made for Harno (Haridus- ja Noorteamet). The website's purpuse i
 * **Katriin Poolakese** - [katpoola](https://github.com/katpoola)
 
 * **Andero Ilmar Kõre** - [Nifilia](https://github.com/Nifilia)
-
-## 📝 | License
-
-This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License
