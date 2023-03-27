@@ -11,7 +11,7 @@ This website is made for Harno (Haridus- ja Noorteamet). The website's purpuse i
 
 ## ✨ | Authors
 
-* **Chris Erman** - [UwUBeebi](https://github.com/UwUBeebi)
+* **Chris Erman** - [Beps-s](https://github.com/Beps-s)
 
 * **Gardo Kirsipuu** - [GardoKirsipuu](https://github.com/GardoKirsipuu)
 
